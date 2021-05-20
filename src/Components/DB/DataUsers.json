@@ -1,0 +1,25 @@
+{
+  "Users": [
+    {
+      "id": 1,
+      "Username": "Admin66",
+      "Password": "ElAdmin2021",
+      "FechaRegistro": "04/05/21",
+      "Email": "Jguku_2002@hotmail.com"
+    },
+    {
+      "id": 1620150545243,
+      "Username": "Slash01",
+      "Password": "Joseph455026",
+      "FechaRegistro": "4/5/2021",
+      "Email": "Jguku_2002@hotmail.com"
+    },
+    {
+      "id": 1620150756584,
+      "Username": "Luciana2025",
+      "Password": "Yuliana455026",
+      "FechaRegistro": "4/5/2021",
+      "Email": "Yulianab6@hotmail.com"
+    }
+  ]
+}

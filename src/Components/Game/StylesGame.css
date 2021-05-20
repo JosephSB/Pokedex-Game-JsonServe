@@ -1,0 +1,192 @@
+.Bg-Game{
+    width: 100vw;
+    height: 100vh;
+    background-color: #e5e5f7;
+    background-image:  linear-gradient(#4b4b4b 1px, transparent 1px), linear-gradient(to right, #4b4b4b 1px, #e5e5f7 1px);
+    background-size: 20px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Exit-Button{
+    width:  5rem;
+    height: 2rem;
+    margin: 10px;
+    border-radius: 10%;
+    cursor: pointer;
+    background-color: rgb(165, 42, 69);
+    position: absolute;
+    top: 10px;
+    left: 2%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:white;
+}
+.Formulario,.Container-Games{
+    width: 40%;
+    min-width: 250px;
+    min-height: 400px;
+    background-color: rgb(5, 5,5 ,0.5);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.Form-Title{
+    color: white;
+    text-align: center;
+    margin: 20px;
+    font-family: 'Press Start 2P', cursive;
+}
+.Form-Input,.Form-Input-Button{
+    min-width: 210px;
+    border:1px solid black;
+    border-radius: 5px;
+    height: 40px;
+    margin: 5px;
+    outline: none;
+}
+.Form-Input-Button{
+    background-color: rgb(8, 209, 68);
+    cursor: pointer;
+    transition: background-color .5s;
+    color: white;
+    font-family: 'Press Start 2P', cursive;
+}
+.Form-Input-Button:hover{
+    background-color: rgb(11, 250, 83);
+}
+.Form-Span{
+    text-align: center;
+    margin: 5px;
+    color: white;
+    font-size: 8px;
+    font-family: 'Press Start 2P', cursive;
+    cursor: pointer;
+    transition: color .5s;
+}
+.Form-Span:hover{
+    color: rgb(21, 243, 51);
+}
+.Exit-Register{
+    cursor: pointer;
+}
+.Cont-errors{
+    background-color: rgba(255, 22, 22, 0.5);
+    width: 50%;
+    min-width: 200px;
+    min-height: 50px;
+    border-radius: 10%;
+}
+.err{
+    color: rgb(255, 255, 255);
+    margin: 5px;
+    font-size:10px;
+    font-family: 'Press Start 2P', cursive;
+}
+.Container-Password{
+    position: relative;
+}
+.Look{
+    position: absolute;
+    top: 10px;
+    left: 85%;
+    z-index: 10;
+    cursor: pointer;
+}
+.Look:hover{
+    color: royalblue;
+}
+/*------------SYLES GAME1------------------*/
+.Container-Games{
+    position: relative;
+}
+.User-Gamer{
+    background-color: rgb(53, 119, 240) ;
+    font-family: 'Press Start 2P', cursive;
+    position: absolute;
+    top: 0;
+    left: center;
+    color: white;
+}
+.Title-Game{
+    color: white;
+    text-align: center;
+    margin: 20px;
+    font-family: 'Press Start 2P', cursive;
+}
+.Aside-Levels{
+    position: absolute;
+    z-index: 10;
+    top: 0;
+    left: 0;
+}
+.Level{
+    width: 30px;
+    height: 30px;
+    background-color: silver;
+    color: white;
+    font-family: 'Press Start 2P', cursive;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 5px;
+    border:1px solid black;
+}
+.Img-Game{
+    width: 30%;
+    min-width: 140px;
+    height: 150px;
+    margin: 5px;
+}
+.Button-Game{
+    width: 40%;
+    min-width: 200px;
+    height: 50px;
+    margin: 5px;
+    background-color: rgb(53, 119, 240);
+    outline: none;
+    border: 2px solid black;
+    cursor: pointer;
+    border-radius: 8%;
+    color: white;
+    font-family: 'Press Start 2P', cursive;
+    transition: background-color .2s;
+}
+.Button-Game:hover{
+    background-color:rgb(41, 58, 209) ;
+}
+
+.animate{
+    border-radius: 8%;
+    color: white;
+    font-family: 'Press Start 2P', cursive;
+    border: 2px solid black;
+}
+.AnimateLevel{
+    position: absolute;
+    width: 40%;
+    min-width: 250px;
+    min-height: 100px;
+    background-color: rgb(5, 5,5 ,0.8);
+    color: rgb(68, 205, 50);
+    font-family: 'Press Start 2P', cursive;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.nivel2,.nivel3{
+    filter: brightness(10%);
+}
+.active{
+    background-color: rgb(68, 205, 50);
+}
+.False{
+    background-color: rgb(205, 50, 50);
+}
+.Correct{
+    background-color: rgb(68, 205, 50);
+}

@@ -1,0 +1,265 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  overflow-x: hidden;
+}
+#root{
+  background-color: rgb(24, 24, 24);
+}
+
+.Header, .Seccion-Buscador{
+  background-color: rgb(15, 15, 15);
+  max-width: 1400px;
+  width: 100vw;
+  height: 10vh;
+  min-height: 200px;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+.Header{
+  min-height: 100px;
+}
+
+.MODE,.ButtonGame{
+  position: absolute;
+  top: 10px;
+  left: 2%;
+  left: 2%;
+  display: flex;
+  z-index: 10;
+  justify-content: center;
+  align-items: center;
+  width: 2rem;
+  height: 2rem;
+  background-color: #fff;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: background-color .5s;
+  box-shadow: 0px 1px 17px 1px #000000;
+}
+.MODE:hover, .ButtonGame:hover{
+  background-color: rgba(189, 189, 189, 0.8);
+}
+.ButtonGame{
+  top: 70px;
+}
+
+.Title-Header, .Subtitle{
+  color: white;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+/*Buscador*/
+.Seccion-Buscador{
+ flex-direction: column;
+}
+.Conteiner-Seccion{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  margin: 10px;
+}
+.Buscador{
+  background-color: transparent;
+  border: none;
+  outline: none;
+  border-bottom: 2px solid #f1c40f;
+  color: rgb(255, 255, 255);
+  margin: 10px;
+  font-size: 15px;
+  text-transform:uppercase;
+}
+/*Efecto Botones*/
+
+.btn {
+  box-sizing: border-box;
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+  background-color: transparent;
+  border: 2px solid #e74c3c;
+  border-radius: 0.6em;
+  color: #e74c3c;
+  cursor: pointer;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-self: center;
+      -ms-flex-item-align: center;
+          align-self: center;
+  font-size: 0.5rem;
+  font-weight: 400;
+  line-height: 1;
+  padding: 1.2em 2.8em;
+  text-decoration: none;
+  text-align: center;
+  text-transform: uppercase;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+}
+.btn:hover, .btn:focus {
+  color: #fff;
+  outline: 0;
+}
+.fourth {
+  border-color: #f1c40f;
+  color: #fff;
+  background-image: -webkit-linear-gradient(45deg, #f1c40f 50%, transparent 50%);
+  background-image: linear-gradient(45deg, #f1c40f 50%, transparent 50%);
+  background-position: 100%;
+  background-size: 400%;
+  -webkit-transition: background 300ms ease-in-out;
+  transition: background 300ms ease-in-out;
+}
+.fourth:hover {
+  background-position: 0;
+}
+
+.Select{
+  width: 120px;
+  height: 30px;
+  outline: none;
+  background-color: transparent;
+  color: white;
+  margin: 5px;
+  border: 2px solid #f1c40f;
+  border-radius: 10px;
+}
+.Option{
+  background-color: rgb(15, 15, 15);
+  color: white;
+}
+.Option:hover{
+  background-color: #f1c40f;
+}
+.Button-Direction{
+  width: 30px;
+  border-radius: 5px;
+  outline: none;
+  margin: 10px;
+}
+/*---------------------------------*/
+/*-----------Estilos Tarjeta------------*/
+.Content-Targets{
+  width: 100vw;
+  min-height: 400px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items:center;
+}
+
+.Target{
+  width: 240px;
+  height: 320px;
+  margin: 10px;
+  border-radius: 25px;
+  background-color: #131313;
+  display: flex;
+  flex-direction:column;
+  justify-content: space-around;
+  align-items: center;
+  border: 1.5px solid #f1c40f;
+  box-shadow: 0px 1px 10px 1px #000000;
+}
+.Target:hover{
+  border: 1px solid #0284ff;
+}
+
+.Cont_Datos_Pokemon{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 240px;
+  height: 40px;
+}
+.Img-Target{
+  width: 160px;
+  height: 150px;
+  /*
+  filter: grayscale(100%);
+  filter: blur(5px);
+  filter: contrast(0%);
+  */
+}
+.Letter-Target{
+  color: wheat;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.ID_Pokemon{
+  width: 120px;
+  height: 20px;
+  border-radius: 10px;
+  margin: 2px;
+  background-color:rgb(24, 24, 24) ;
+  text-align: center;
+  color: white;
+  font-size: 15px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  border: 1px solid rgb(0, 0, 0);
+}
+.ID{
+  width: 60px;
+}
+.Info{
+  outline: none;
+  Border: 2px solid rgb(196, 17, 53);
+  border-bottom: 4px solid rgb(196, 17, 53);
+  width: 100px;
+  height: 40px;
+  background-color: crimson;
+  cursor: pointer;
+  color: white;
+  transition: all .5s;
+}
+
+.preloader {
+  width: 70px;
+  height: 70px;
+  border: 10px solid #eee;
+  border-top: 10px solid #666;
+  border-radius: 50%;
+  animation-name: girar;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+}
+@keyframes girar {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.menu{
+  display: none;
+}
+
+.Fixed{
+  border-radius: 10px;
+  border: 2px solid black;
+  position: fixed;
+  top: 10px;
+}
+.Dark{
+  background-color: rgb(22, 22, 22);
+  color: white;
+}
+.White{
+  background-color: rgb(240, 240, 240);
+  color: rgb(5, 5, 5);
+}
+.load{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 400px;
+}
