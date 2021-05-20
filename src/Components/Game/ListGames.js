@@ -30,6 +30,7 @@ export default function ListGames(props) {
                 setPlay(false)
                 setNivel(1)
                 setCont(0)
+                setScore(0)
             }
         }
     }, [cont]);
