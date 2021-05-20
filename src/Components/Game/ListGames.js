@@ -59,7 +59,7 @@ export default function ListGames(props) {
         }
         setTimeout(() => {
             setAnimate(false)
-        }, 2000);
+        }, 3000);
     }
     return(
         <>
@@ -75,7 +75,7 @@ export default function ListGames(props) {
                     <div className={nivel >= 5 ? "Level active" : "Level"}>5</div>
                 </aside>
                 {animateLevel &&<span className="AnimateLevel">Nivel {nivel}</span> }
-                {animate ? <Animate img={imgprev} name={pokprev} resp={resp ? "Correct" : "False"}></Animate> :<>
+                {animate ? <Animate score={score} img={imgprev} name={pokprev} resp={resp ? "Correct" : "False"}></Animate> :<>
                 <img className={`Img-Game nivel${nivel}`} src={imgPok} alt={imgPok}></img>
                 <button className="Button-Game" onClick={handleClick} value={listpok[2]}>{listpok[2]}</button>
                 <button className="Button-Game" onClick={handleClick} value={listpok[1]}>{listpok[1]}</button>

@@ -110,11 +110,14 @@
     left: center;
     color: white;
 }
-.Title-Game{
+.Title-Game,.Title-Spam{
     color: white;
     text-align: center;
     margin: 20px;
     font-family: 'Press Start 2P', cursive;
+}
+.Title-Spam{
+    margin: 3px;
 }
 .Aside-Levels{
     position: absolute;
